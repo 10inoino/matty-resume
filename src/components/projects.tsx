@@ -75,7 +75,9 @@ const Projects = () => {
             <td>メンバー、開発者</td>
           </tr>
           <tr>
-            <td>在宅・福祉施設向けコロナ対策サイトモバイル最適化、Twitterのbot化</td>
+            <td>
+              在宅・福祉施設向けコロナ対策サイトモバイル最適化、Twitterのbot化
+            </td>
             <td>一般社団法人Code for Japan</td>
             <td>2020/06 ~ 2020/10</td>
             <td>開発者</td>

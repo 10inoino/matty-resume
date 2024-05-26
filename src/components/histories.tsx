@@ -44,7 +44,17 @@ const Histories = () => {
           </tr>
           <tr>
             <td>2018年</td>
-            <td>内定が決まったときから<a href="https://www.persol-pt.co.jp/" target="_blank" rel="noopener noreferrer">パーソルプロセス&テクノロジー株式会社</a>の新卒採用でアルバイト</td>
+            <td>
+              内定が決まったときから
+              <a
+                href="https://www.persol-pt.co.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                パーソルプロセス&テクノロジー株式会社
+              </a>
+              の新卒採用でアルバイト
+            </td>
           </tr>
           <tr>
             <td>2019年3月</td>
@@ -52,11 +62,29 @@ const Histories = () => {
           </tr>
           <tr>
             <td>2019年4月</td>
-            <td><a href="https://www.persol-pt.co.jp/" target="_blank" rel="noopener noreferrer">パーソルプロセス&テクノロジー株式会社</a> 入社</td>
+            <td>
+              <a
+                href="https://www.persol-pt.co.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                パーソルプロセス&テクノロジー株式会社
+              </a>{" "}
+              入社
+            </td>
           </tr>
           <tr>
             <td>2020年4月</td>
-            <td><a href="https://www.code4japan.org/" target="_blank" rel="noopener noreferrer">一般社団法人コード・フォー・ジャパン</a>にプロボノとしてジョイン</td>
+            <td>
+              <a
+                href="https://www.code4japan.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                一般社団法人コード・フォー・ジャパン
+              </a>
+              にプロボノとしてジョイン
+            </td>
           </tr>
           <tr>
             <td>2020年7月</td>
@@ -64,11 +92,30 @@ const Histories = () => {
           </tr>
           <tr>
             <td>2021年4月</td>
-            <td>部署の人化に伴い、<a href="https://www.postas.co.jp/" target="_blank" rel="noopener noreferrer">ポスタス株式会社</a>に転籍</td>
+            <td>
+              部署の人化に伴い、
+              <a
+                href="https://www.postas.co.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ポスタス株式会社
+              </a>
+              に転籍
+            </td>
           </tr>
           <tr>
             <td>2022年6月</td>
-            <td><a href="https://graffer.jp/" target="_blank" rel="noopener noreferrer">株式会社グラファー</a>に転職。Product Developerとして活動。</td>
+            <td>
+              <a
+                href="https://graffer.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                株式会社グラファー
+              </a>
+              に転職。Product Developerとして活動。
+            </td>
           </tr>
         </tbody>
       </table>
@@ -77,4 +124,3 @@ const Histories = () => {
 };
 
 export default Histories;
-
