@@ -1,7 +1,6 @@
-import Link from "next/link";
 import React from "react";
 
-const SelfIntroduce = () => {
+const Links = () => {
   return (
     <div>
       <h2>Links</h2>
@@ -65,4 +64,4 @@ const SelfIntroduce = () => {
   );
 };
 
-export default SelfIntroduce;
+export default Links;
