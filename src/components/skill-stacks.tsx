@@ -181,7 +181,7 @@ const SkillStacks = () => {
         </tbody>
       </table>
     </div>
-  )
+  );
 };
 
 export default SkillStacks;
