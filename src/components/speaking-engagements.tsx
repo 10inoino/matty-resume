@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const SpeakingEngagement: React.FC = () => {
   return (
@@ -13,7 +13,14 @@ const SpeakingEngagement: React.FC = () => {
         </thead>
         <tbody>
           <tr>
-            <td>【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？会 ＆NPO井戸端会議！</td>
+            <td>
+              【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？会
+              ＆NPO井戸端会議！
+            </td>
+
+
+
+
             <td>2020/07</td>
           </tr>
           <tr>
@@ -21,7 +28,9 @@ const SpeakingEngagement: React.FC = () => {
             <td>2020/08</td>
           </tr>
           <tr>
-            <td>【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？オンライン座談会</td>
+            <td>
+              【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？オンライン座談会
+            </td>
             <td>2020/10</td>
           </tr>
           <tr>
@@ -39,4 +48,3 @@ const SpeakingEngagement: React.FC = () => {
 };
 
 export default SpeakingEngagement;
-
