@@ -178,15 +178,6 @@ const SkillStacks = () => {
             <td>ライブラリ</td>
             <td>趣味でやった・学生の時に学習した</td>
           </tr>
-
-
-
-
-
-
-
-
-
         </tbody>
       </table>
     </div>

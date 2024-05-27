@@ -29,11 +29,6 @@
     "tailwindcss": "3.4.1",
     "typescript": "5"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*": [
       "npm run format"
