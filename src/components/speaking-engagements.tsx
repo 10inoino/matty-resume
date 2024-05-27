@@ -17,10 +17,6 @@ const SpeakingEngagement: React.FC = () => {
               【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？会
               ＆NPO井戸端会議！
             </td>
-
-
-
-
             <td>2020/07</td>
           </tr>
           <tr>
