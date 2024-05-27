@@ -51,17 +51,17 @@ const SkillStacks = () => {
           <tr>
             <td>C</td>
             <td>言語</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>C++</td>
             <td>言語</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>Python</td>
             <td>言語</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>Golang</td>
@@ -81,25 +81,30 @@ const SkillStacks = () => {
           <tr>
             <td>Nuxt.js</td>
             <td>フレームワーク</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>Serverless Framework</td>
             <td>フレームワーク</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>Vue.js</td>
             <td>フレームワーク</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>Gridsome</td>
             <td>フレームワーク</td>
+            <td>趣味でやった・学生の時に学習した</td>
+          </tr>
+          <tr>
+            <td>Gin</td>
+            <td>フレームワーク</td>
             <td>業務で利用した</td>
           </tr>
           <tr>
-            <td>Nest.js</td>
+            <td>React</td>
             <td>フレームワーク</td>
             <td>業務で利用した</td>
           </tr>
@@ -126,22 +131,22 @@ const SkillStacks = () => {
           <tr>
             <td>MySQL</td>
             <td>DB</td>
-            <td>業務で利用した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>MongoDB</td>
             <td>DB</td>
-            <td>個人で学習した</td>
+            <td>業務で利用した</td>
           </tr>
           <tr>
             <td>Github</td>
-            <td>ソース管理</td>
+            <td>ソースコード管理</td>
             <td>業務で利用した</td>
           </tr>
           <tr>
             <td>Gitlab</td>
-            <td>ソース管理</td>
-            <td>個人で学習した</td>
+            <td>ソースコード管理</td>
+            <td>業務で利用した</td>
           </tr>
           <tr>
             <td>AWS</td>
@@ -151,27 +156,32 @@ const SkillStacks = () => {
           <tr>
             <td>GCP</td>
             <td>インフラ</td>
-            <td>個人で学習した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
           <tr>
             <td>gRPC</td>
             <td>API</td>
-            <td>個人で学習した</td>
+            <td>業務で利用した</td>
           </tr>
           <tr>
             <td>GraphQL</td>
             <td>API</td>
-            <td>個人で学習した</td>
+            <td>業務で利用した</td>
+          </tr>
+          <tr>
+            <td>GORM</td>
+            <td>ライブラリ</td>
+            <td>業務で利用した</td>
           </tr>
           <tr>
             <td>SQLBoiler</td>
             <td>ライブラリ</td>
-            <td>個人で学習した</td>
+            <td>趣味でやった・学生の時に学習した</td>
           </tr>
         </tbody>
       </table>
     </div>
-  );
+  )
 };
 
 export default SkillStacks;
