@@ -4,6 +4,8 @@ import Links from "@/components/links";
 import Projects from "@/components/projects";
 import SelfIntroduce from "@/components/self-introduce";
 import SkillStacks from "@/components/skill-stacks";
+import SpeakingEngagement from "@/components/speaking-engagements";
+import Strength from "@/components/strength";
 import Markdown from "react-markdown";
 const markdown = require("/contents/resume.md") as string;
 
@@ -17,6 +19,8 @@ export default function Home() {
       <Histories />
       <SkillStacks />
       <Projects />
+      <SpeakingEngagement />
+      <Strength />
     </>
   );
 }
