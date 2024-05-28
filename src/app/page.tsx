@@ -8,23 +8,25 @@ import SelfIntroduce from "@/components/self-introduce";
 import SkillStacks from "@/components/skill-stacks";
 import SpeakingEngagement from "@/components/speaking-engagements";
 import Strength from "@/components/strength";
-import Markdown from "react-markdown";
-const markdown = require("/contents/resume.md") as string;
+import { Container, Heading } from "@chakra-ui/layout";
 
 export default function Home() {
   return (
     <>
-      <h1>matty resume</h1>
-      <Markdown>{markdown}</Markdown>
-      <SelfIntroduce />
-      <Links />
-      <Histories />
-      <SkillStacks />
-      <Projects />
-      <SpeakingEngagement />
-      <Strength />
-      <CarrierPlan />
-      <Hobbies />
+      <Container maxW="7xl" p="12">
+        <Heading as="h1" size="4xl">
+          Resume
+        </Heading>
+        <SelfIntroduce />
+        <Links />
+        <Histories />
+        <SkillStacks />
+        <Projects />
+        <SpeakingEngagement />
+        <Strength />
+        <CarrierPlan />
+        <Hobbies />
+      </Container>
     </>
   );
 }

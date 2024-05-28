@@ -1,15 +1,18 @@
 import React from "react";
+import { Box, Heading, List, ListItem, UnorderedList } from "@chakra-ui/react";
 
 const SelfIntroduce = () => {
   return (
-    <div>
-      <h2>自己紹介</h2>
-      <ul>
-        <li>名前：猪股 光(イノマタ ヒカル)</li>
-        <li>生年月日：1996/09/06</li>
-        <li>ニックネーム：matty(マティと読みます)</li>
-      </ul>
-    </div>
+    <Box my={3}>
+      <Heading as="h2" size={"lg"}>
+        自己紹介
+      </Heading>
+      <UnorderedList>
+        <ListItem>名前：猪股 光(イノマタ ヒカル)</ListItem>
+        <ListItem>生年月日：1996/09/06</ListItem>
+        <ListItem>ニックネーム：matty(マティと読みます)</ListItem>
+      </UnorderedList>
+    </Box>
   );
 };
 

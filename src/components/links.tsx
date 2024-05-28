@@ -1,66 +1,51 @@
 import React from "react";
+import { Box, Heading, Link, UnorderedList, ListItem } from "@chakra-ui/react";
 
 const Links = () => {
   return (
-    <div>
-      <h2>Links</h2>
-      <ul>
-        <li>
-          <a
-            href="https://www.facebook.com/10inoino"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <Box my={3}>
+      <Heading as="h2" size="lg">
+        Links
+      </Heading>
+      <UnorderedList>
+        <ListItem>
+          <Link href="https://www.facebook.com/10inoino" isExternal>
             Facebook
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/ino_aka_matty"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href="https://twitter.com/ino_aka_matty" isExternal>
             Twitter
-          </a>
-        </li>
-        <li>
-          <a
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
             href="https://docs.google.com/presentation/d/1wPobujyRIkUf_ietB6iaEzpNTMRrlBWEvS_PRrxe_Iw/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
+            isExternal
           >
             自己紹介資料
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/10inoino"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href="https://github.com/10inoino" isExternal>
             Github
-          </a>
-        </li>
-        <li>
-          <a
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
             href="https://open.spotify.com/show/7gMXEfaXAaQjUbqRWy7UrL"
-            target="_blank"
-            rel="noopener noreferrer"
+            isExternal
           >
             個人でやってるPodcast
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://zenn.dev/10inoino"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href="https://zenn.dev/10inoino" isExternal>
             Zenn
-          </a>
-        </li>
-      </ul>
-    </div>
+          </Link>
+        </ListItem>
+      </UnorderedList>
+    </Box>
   );
 };
 

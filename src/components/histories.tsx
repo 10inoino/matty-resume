@@ -1,125 +1,119 @@
+import {
+  Box,
+  Heading,
+  Table,
+  Thead,
+  Tbody,
+  Tr,
+  Th,
+  Td,
+  Link,
+} from "@chakra-ui/react";
+
 const Histories = () => {
   return (
-    <div>
-      <h2>Histories</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>年月</th>
-            <th>内容</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1996年</td>
-            <td>東京都で生まれる</td>
-          </tr>
-          <tr>
-            <td>1999年</td>
-            <td>親の方針で、神奈川の堂山町に引っ越す（この頃の記憶は無い）</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>中学校までスキップ</td>
-          </tr>
-          <tr>
-            <td>2009年4月</td>
-            <td>堂山町立堂山中学校入学</td>
-          </tr>
-          <tr>
-            <td>2012年3月</td>
-            <td>堂山町立堂山中学校卒業</td>
-          </tr>
-          <tr>
-            <td>2012年4月</td>
-            <td>神奈川県立立堂高校入学</td>
-          </tr>
-          <tr>
-            <td>2015年3月</td>
-            <td>神奈川県立立堂高校卒業</td>
-          </tr>
-          <tr>
-            <td>2015年4月</td>
-            <td>明治大学 理工学部 情報工学科 入学</td>
-          </tr>
-          <tr>
-            <td>2018年</td>
-            <td>
+    <Box my={3}>
+      <Heading as="h2" size="lg">
+        来歴
+      </Heading>
+      <Table variant="simple" size="sm">
+        <Thead>
+          <Tr>
+            <Th>年月</Th>
+            <Th>内容</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr>
+            <Td>1996年</Td>
+            <Td>東京都で生まれる</Td>
+          </Tr>
+          <Tr>
+            <Td>1999年</Td>
+            <Td>親の方針で、神奈川の堂山町に引っ越す（この頃の記憶は無い）</Td>
+          </Tr>
+          <Tr>
+            <Td></Td>
+            <Td>中学校までスキップ</Td>
+          </Tr>
+          <Tr>
+            <Td>2009年4月</Td>
+            <Td>堂山町立堂山中学校入学</Td>
+          </Tr>
+          <Tr>
+            <Td>2012年3月</Td>
+            <Td>堂山町立堂山中学校卒業</Td>
+          </Tr>
+          <Tr>
+            <Td>2012年4月</Td>
+            <Td>神奈川県立立堂高校入学</Td>
+          </Tr>
+          <Tr>
+            <Td>2015年3月</Td>
+            <Td>神奈川県立立堂高校卒業</Td>
+          </Tr>
+          <Tr>
+            <Td>2015年4月</Td>
+            <Td>明治大学 理工学部 情報工学科 入学</Td>
+          </Tr>
+          <Tr>
+            <Td>2018年</Td>
+            <Td>
               内定が決まったときから
-              <a
-                href="https://www.persol-pt.co.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href="https://www.persol-pt.co.jp/" isExternal>
                 パーソルプロセス&テクノロジー株式会社
-              </a>
+              </Link>
               の新卒採用でアルバイト
-            </td>
-          </tr>
-          <tr>
-            <td>2019年3月</td>
-            <td>明治大学 理工学部 情報工学科 卒業</td>
-          </tr>
-          <tr>
-            <td>2019年4月</td>
-            <td>
-              <a
-                href="https://www.persol-pt.co.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            </Td>
+          </Tr>
+          <Tr>
+            <Td>2019年3月</Td>
+            <Td>明治大学 理工学部 情報工学科 卒業</Td>
+          </Tr>
+          <Tr>
+            <Td>2019年4月</Td>
+            <Td>
+              <Link href="https://www.persol-pt.co.jp/" isExternal>
                 パーソルプロセス&テクノロジー株式会社
-              </a>{" "}
+              </Link>
               入社
-            </td>
-          </tr>
-          <tr>
-            <td>2020年4月</td>
-            <td>
-              <a
-                href="https://www.code4japan.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            </Td>
+          </Tr>
+          <Tr>
+            <Td>2020年4月</Td>
+            <Td>
+              <Link href="https://www.code4japan.org/" isExternal>
                 一般社団法人コード・フォー・ジャパン
-              </a>
+              </Link>
               にプロボノとしてジョイン
-            </td>
-          </tr>
-          <tr>
-            <td>2020年7月</td>
-            <td>千葉県船橋市で一人暮らしを始める</td>
-          </tr>
-          <tr>
-            <td>2021年4月</td>
-            <td>
+            </Td>
+          </Tr>
+          <Tr>
+            <Td>2020年7月</Td>
+            <Td>千葉県船橋市で一人暮らしを始める</Td>
+          </Tr>
+          <Tr>
+            <Td>2021年4月</Td>
+            <Td>
               部署の人化に伴い、
-              <a
-                href="https://www.postas.co.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href="https://www.postas.co.jp/" isExternal>
                 ポスタス株式会社
-              </a>
+              </Link>
               に転籍
-            </td>
-          </tr>
-          <tr>
-            <td>2022年6月</td>
-            <td>
-              <a
-                href="https://graffer.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            </Td>
+          </Tr>
+          <Tr>
+            <Td>2022年6月</Td>
+            <Td>
+              <Link href="https://graffer.jp/" isExternal>
                 株式会社グラファー
-              </a>
+              </Link>
               に転職。Product Developerとして活動。
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+            </Td>
+          </Tr>
+        </Tbody>
+      </Table>
+    </Box>
   );
 };
 
