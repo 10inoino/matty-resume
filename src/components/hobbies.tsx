@@ -1,0 +1,87 @@
+import React from "react";
+
+const Hobbies: React.FC = () => {
+  return (
+    <div>
+      <h2>趣味</h2>
+      <ul>
+        <li>
+          プログラミング
+          <ul>
+            <li>
+              技術系同人誌を買って、ちょっとしたWebアプリを作ったりしています。
+            </li>
+            <li>最近はC++で競技プログラミングも始めました。</li>
+          </ul>
+        </li>
+        <li>
+          バスケ
+          <ul>
+            <li>コロナになってから、全然できていません…</li>
+          </ul>
+        </li>
+        <li>
+          筋トレ
+          <ul>
+            <li>
+              家から徒歩2分のところにエニタイムフィットネスがあるので、ほぼ毎日ジムに行くようにしています。
+            </li>
+          </ul>
+        </li>
+        <li>
+          ゲーム
+          <ul>
+            <li>FPSとか、スマブラとかよくやってます。</li>
+          </ul>
+        </li>
+        <li>
+          読書
+          <ul>
+            <li>
+              最近は技術書とかビジネス書に寄りがちなので、もっといろんなジャンルに手を出したいです。
+            </li>
+          </ul>
+        </li>
+        <li>
+          料理
+          <ul>
+            <li>1ヶ月に1個は作れるレパートリーを増やそうと挑戦中です。</li>
+          </ul>
+        </li>
+        <li>
+          映画
+          <ul>
+            <li>好きな映画は「イミテーション・ゲーム」です。</li>
+          </ul>
+        </li>
+        <li>
+          スニーカー収集
+          <ul>
+            <li>
+              今となっては落ち着きましたが、高校の時にNIKEのスニーカーにドハマリし、大学の時は始発で渋谷に行って、スニーカーの抽選に並んでいました。
+            </li>
+            <li>家に40足スニーカーがあります。</li>
+          </ul>
+        </li>
+        <li>
+          Podcast
+          <ul>
+            <li>
+              リスナーとしても好きですし、自分でも
+              <a
+                href="https://open.spotify.com/show/7gMXEfaXAaQjUbqRWy7UrL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                in-box.fm
+              </a>
+              というPodcastをやっています。
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default Hobbies;
