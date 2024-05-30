@@ -3,8 +3,8 @@ import { Box, Heading, Link, UnorderedList, ListItem } from "@chakra-ui/react";
 
 const Links = () => {
   return (
-    <Box my={3}>
-      <Heading as="h2" size="lg">
+    <Box my={5}>
+      <Heading as="h2" size="lg" mb={3}>
         Links
       </Heading>
       <UnorderedList>

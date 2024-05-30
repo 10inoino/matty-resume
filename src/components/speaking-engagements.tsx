@@ -1,45 +1,57 @@
 import React from "react";
+import {
+  Box,
+  Heading,
+  Table,
+  Thead,
+  Tbody,
+  Tr,
+  Th,
+  Td,
+} from "@chakra-ui/react";
 
 const SpeakingEngagement: React.FC = () => {
   return (
-    <div>
-      <h2>登壇歴</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>タイトル</th>
-            <th>年月</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
+    <Box my={5}>
+      <Heading as="h2" size="lg" mb={3}>
+        登壇歴
+      </Heading>
+      <Table variant="simple" size="sm">
+        <Thead>
+          <Tr>
+            <Th>タイトル</Th>
+            <Th>年月</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr>
+            <Td>
               【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？会
               ＆NPO井戸端会議！
-            </td>
-            <td>2020/07</td>
-          </tr>
-          <tr>
-            <td>Startup Lab Lagoon 文化祭</td>
-            <td>2020/08</td>
-          </tr>
-          <tr>
-            <td>
+            </Td>
+            <Td>2020/07</Td>
+          </Tr>
+          <Tr>
+            <Td>Startup Lab Lagoon 文化祭</Td>
+            <Td>2020/08</Td>
+          </Tr>
+          <Tr>
+            <Td>
               【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？オンライン座談会
-            </td>
-            <td>2020/10</td>
-          </tr>
-          <tr>
-            <td>CivicTechForum2021</td>
-            <td>2021/05</td>
-          </tr>
-          <tr>
-            <td>千葉大学 NPO/NGO論 ゲスト講義</td>
-            <td>2021/12</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+            </Td>
+            <Td>2020/10</Td>
+          </Tr>
+          <Tr>
+            <Td>CivicTechForum2021</Td>
+            <Td>2021/05</Td>
+          </Tr>
+          <Tr>
+            <Td>千葉大学 NPO/NGO論 ゲスト講義</Td>
+            <Td>2021/12</Td>
+          </Tr>
+        </Tbody>
+      </Table>
+    </Box>
   );
 };
 

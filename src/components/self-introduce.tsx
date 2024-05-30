@@ -3,8 +3,8 @@ import { Box, Heading, List, ListItem, UnorderedList } from "@chakra-ui/react";
 
 const SelfIntroduce = () => {
   return (
-    <Box my={3}>
-      <Heading as="h2" size={"lg"}>
+    <Box my={5}>
+      <Heading as="h2" size={"lg"} mb={3}>
         自己紹介
       </Heading>
       <UnorderedList>

@@ -12,8 +12,8 @@ import {
 
 const Histories = () => {
   return (
-    <Box my={3}>
-      <Heading as="h2" size="lg">
+    <Box my={5}>
+      <Heading as="h2" size="lg" mb={3}>
         来歴
       </Heading>
       <Table variant="simple" size="sm">
