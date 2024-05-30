@@ -1,86 +1,90 @@
 import React from "react";
+import { Box, Heading, UnorderedList, ListItem, Link } from "@chakra-ui/react";
 
 const Hobbies: React.FC = () => {
   return (
-    <div>
-      <h2>趣味</h2>
-      <ul>
-        <li>
+    <Box my={5}>
+      <Heading as="h2" size="lg" mb={3}>
+        趣味
+      </Heading>
+      <UnorderedList spacing={3}>
+        <ListItem>
           プログラミング
-          <ul>
-            <li>
+          <UnorderedList pl={4}>
+            <ListItem>
               技術系同人誌を買って、ちょっとしたWebアプリを作ったりしています。
-            </li>
-            <li>最近はC++で競技プログラミングも始めました。</li>
-          </ul>
-        </li>
-        <li>
+            </ListItem>
+            <ListItem>最近はC++で競技プログラミングも始めました。</ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           バスケ
-          <ul>
-            <li>コロナになってから、全然できていません…</li>
-          </ul>
-        </li>
-        <li>
+          <UnorderedList pl={4}>
+            <ListItem>コロナになってから、全然できていません…</ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           筋トレ
-          <ul>
-            <li>
+          <UnorderedList pl={4}>
+            <ListItem>
               家から徒歩2分のところにエニタイムフィットネスがあるので、ほぼ毎日ジムに行くようにしています。
-            </li>
-          </ul>
-        </li>
-        <li>
+            </ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           ゲーム
-          <ul>
-            <li>FPSとか、スマブラとかよくやってます。</li>
-          </ul>
-        </li>
-        <li>
+          <UnorderedList pl={4}>
+            <ListItem>FPSとか、スマブラとかよくやってます。</ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           読書
-          <ul>
-            <li>
+          <UnorderedList pl={4}>
+            <ListItem>
               最近は技術書とかビジネス書に寄りがちなので、もっといろんなジャンルに手を出したいです。
-            </li>
-          </ul>
-        </li>
-        <li>
+            </ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           料理
-          <ul>
-            <li>1ヶ月に1個は作れるレパートリーを増やそうと挑戦中です。</li>
-          </ul>
-        </li>
-        <li>
+          <UnorderedList pl={4}>
+            <ListItem>
+              1ヶ月に1個は作れるレパートリーを増やそうと挑戦中です。
+            </ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           映画
-          <ul>
-            <li>好きな映画は「イミテーション・ゲーム」です。</li>
-          </ul>
-        </li>
-        <li>
+          <UnorderedList pl={4}>
+            <ListItem>好きな映画は「イミテーション・ゲーム」です。</ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           スニーカー収集
-          <ul>
-            <li>
+          <UnorderedList pl={4}>
+            <ListItem>
               今となっては落ち着きましたが、高校の時にNIKEのスニーカーにドハマリし、大学の時は始発で渋谷に行って、スニーカーの抽選に並んでいました。
-            </li>
-            <li>家に40足スニーカーがあります。</li>
-          </ul>
-        </li>
-        <li>
+            </ListItem>
+            <ListItem>家に40足スニーカーがあります。</ListItem>
+          </UnorderedList>
+        </ListItem>
+        <ListItem>
           Podcast
-          <ul>
-            <li>
+          <UnorderedList pl={4}>
+            <ListItem>
               リスナーとしても好きですし、自分でも
-              <a
+              <Link
                 href="https://open.spotify.com/show/7gMXEfaXAaQjUbqRWy7UrL"
-                target="_blank"
-                rel="noopener noreferrer"
+                isExternal
               >
                 in-box.fm
-              </a>
+              </Link>
               というPodcastをやっています。
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+            </ListItem>
+          </UnorderedList>
+        </ListItem>
+      </UnorderedList>
+    </Box>
   );
 };
 
