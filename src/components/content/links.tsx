@@ -2,7 +2,6 @@ import React from "react";
 import { Link, UnorderedList, ListItem } from "@chakra-ui/react";
 import Container from "../container";
 import H2 from "../h2";
-import H3 from "../h3";
 
 const Links = () => {
   return (
@@ -11,12 +10,12 @@ const Links = () => {
       <UnorderedList>
         <ListItem>
           <Link href="https://www.facebook.com/10inoino" isExternal>
-            <H3>Facebook</H3>
+            Facebook
           </Link>
         </ListItem>
         <ListItem>
           <Link href="https://twitter.com/ino_aka_matty" isExternal>
-            <H3>Twitter</H3>
+            Twitter
           </Link>
         </ListItem>
         <ListItem>
@@ -24,12 +23,12 @@ const Links = () => {
             href="https://docs.google.com/presentation/d/1wPobujyRIkUf_ietB6iaEzpNTMRrlBWEvS_PRrxe_Iw/edit?usp=sharing"
             isExternal
           >
-            <H3>自己紹介資料</H3>
+            自己紹介資料
           </Link>
         </ListItem>
         <ListItem>
           <Link href="https://github.com/10inoino" isExternal>
-            <H3>Github</H3>
+            Github
           </Link>
         </ListItem>
         <ListItem>
@@ -37,12 +36,12 @@ const Links = () => {
             href="https://open.spotify.com/show/7gMXEfaXAaQjUbqRWy7UrL"
             isExternal
           >
-            <H3>個人でやってるPodcast</H3>
+            個人でやってるPodcast
           </Link>
         </ListItem>
         <ListItem>
           <Link href="https://zenn.dev/10inoino" isExternal>
-            <H3>Zenn</H3>
+            Zenn
           </Link>
         </ListItem>
       </UnorderedList>
