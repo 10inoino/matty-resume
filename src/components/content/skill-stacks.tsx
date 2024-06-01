@@ -1,21 +1,12 @@
 import React from "react";
-import {
-  Box,
-  Heading,
-  Table,
-  Thead,
-  Tbody,
-  Tr,
-  Th,
-  Td,
-} from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th, Td } from "@chakra-ui/react";
+import Container from "../container";
+import H2 from "../h2";
 
 const SkillStacks = () => {
   return (
-    <Box my={5}>
-      <Heading as="h2" size="lg" mb={3}>
-        スキルスタック
-      </Heading>
+    <Container>
+      <H2>スキルスタック</H2>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>
@@ -192,7 +183,7 @@ const SkillStacks = () => {
           </Tr>
         </Tbody>
       </Table>
-    </Box>
+    </Container>
   );
 };
 

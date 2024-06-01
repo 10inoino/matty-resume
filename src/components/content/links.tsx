@@ -1,12 +1,12 @@
 import React from "react";
-import { Box, Heading, Link, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Link, UnorderedList, ListItem } from "@chakra-ui/react";
+import Container from "../container";
+import H2 from "../h2";
 
 const Links = () => {
   return (
-    <Box my={5}>
-      <Heading as="h2" size="lg" mb={3}>
-        Links
-      </Heading>
+    <Container>
+      <H2>Links</H2>
       <UnorderedList>
         <ListItem>
           <Link href="https://www.facebook.com/10inoino" isExternal>
@@ -45,7 +45,7 @@ const Links = () => {
           </Link>
         </ListItem>
       </UnorderedList>
-    </Box>
+    </Container>
   );
 };
 

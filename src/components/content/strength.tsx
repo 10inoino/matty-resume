@@ -1,15 +1,14 @@
 import React from "react";
-import { Box, Heading, Text, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Text, UnorderedList, ListItem } from "@chakra-ui/react";
+import Container from "../container";
+import H2 from "../h2";
+import H3 from "../h3";
 
 const Strength: React.FC = () => {
   return (
-    <Box my={5}>
-      <Heading as="h2" size="lg" mb={3}>
-        強み
-      </Heading>
-      <Heading as="h3" size="md" my={3}>
-        Webアプリケーション開発であれば、一通り触れます
-      </Heading>
+    <Container>
+      <H2>強み</H2>
+      <H3>Webアプリケーション開発であれば、一通り触れます</H3>
       <UnorderedList spacing={3}>
         <ListItem>
           <Text>
@@ -38,9 +37,7 @@ const Strength: React.FC = () => {
           </UnorderedList>
         </ListItem>
       </UnorderedList>
-      <Heading as="h3" size="md" my={3}>
-        テキストコミュニケーションも対面のコミュニケーションも得意です
-      </Heading>
+      <H3>テキストコミュニケーションも対面のコミュニケーションも得意です</H3>
       <UnorderedList spacing={3}>
         <ListItem>
           <Text>
@@ -68,9 +65,7 @@ const Strength: React.FC = () => {
           </Text>
         </ListItem>
       </UnorderedList>
-      <Heading as="h3" size="md" my={3}>
-        人前で話すことが好きです
-      </Heading>
+      <H3>人前で話すことが好きです</H3>
       <UnorderedList spacing={3}>
         <ListItem>
           <Text>
@@ -88,7 +83,7 @@ const Strength: React.FC = () => {
           </Text>
         </ListItem>
       </UnorderedList>
-    </Box>
+    </Container>
   );
 };
 

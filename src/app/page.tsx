@@ -1,13 +1,13 @@
 "use client";
-import CarrierPlan from "@/components/carrier-plan";
-import Histories from "@/components/histories";
-import Hobbies from "@/components/hobbies";
-import Links from "@/components/links";
-import Projects from "@/components/projects";
-import SelfIntroduce from "@/components/self-introduce";
-import SkillStacks from "@/components/skill-stacks";
-import SpeakingEngagement from "@/components/speaking-engagements";
-import Strength from "@/components/strength";
+import CarrierPlan from "@/components/content/carrier-plan";
+import Histories from "@/components/content/histories";
+import Hobbies from "@/components/content/hobbies";
+import Links from "@/components/content/links";
+import Projects from "@/components/content/projects";
+import SelfIntroduce from "@/components/content/self-introduce";
+import SkillStacks from "@/components/content/skill-stacks";
+import SpeakingEngagement from "@/components/content/speaking-engagements";
+import Strength from "@/components/content/strength";
 import { Container, Heading } from "@chakra-ui/layout";
 
 export default function Home() {
