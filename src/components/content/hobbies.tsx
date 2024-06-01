@@ -1,15 +1,16 @@
 import React from "react";
-import { Box, Heading, UnorderedList, ListItem, Link } from "@chakra-ui/react";
+import { UnorderedList, ListItem, Link } from "@chakra-ui/react";
+import Container from "../container";
+import H2 from "../h2";
+import H3 from "../h3";
 
 const Hobbies: React.FC = () => {
   return (
-    <Box my={5}>
-      <Heading as="h2" size="lg" mb={3}>
-        趣味
-      </Heading>
+    <Container>
+      <H2>趣味</H2>
       <UnorderedList spacing={3}>
         <ListItem>
-          プログラミング
+          <H3>プログラミング</H3>
           <UnorderedList pl={4}>
             <ListItem>
               技術系同人誌を買って、ちょっとしたWebアプリを作ったりしています。
@@ -18,13 +19,13 @@ const Hobbies: React.FC = () => {
           </UnorderedList>
         </ListItem>
         <ListItem>
-          バスケ
+          <H3>バスケ</H3>
           <UnorderedList pl={4}>
             <ListItem>コロナになってから、全然できていません…</ListItem>
           </UnorderedList>
         </ListItem>
         <ListItem>
-          筋トレ
+          <H3>筋トレ</H3>
           <UnorderedList pl={4}>
             <ListItem>
               家から徒歩2分のところにエニタイムフィットネスがあるので、ほぼ毎日ジムに行くようにしています。
@@ -32,13 +33,13 @@ const Hobbies: React.FC = () => {
           </UnorderedList>
         </ListItem>
         <ListItem>
-          ゲーム
+          <H3>ゲーム</H3>
           <UnorderedList pl={4}>
             <ListItem>FPSとか、スマブラとかよくやってます。</ListItem>
           </UnorderedList>
         </ListItem>
         <ListItem>
-          読書
+          <H3>読書</H3>
           <UnorderedList pl={4}>
             <ListItem>
               最近は技術書とかビジネス書に寄りがちなので、もっといろんなジャンルに手を出したいです。
@@ -46,7 +47,7 @@ const Hobbies: React.FC = () => {
           </UnorderedList>
         </ListItem>
         <ListItem>
-          料理
+          <H3>料理</H3>
           <UnorderedList pl={4}>
             <ListItem>
               1ヶ月に1個は作れるレパートリーを増やそうと挑戦中です。
@@ -54,13 +55,13 @@ const Hobbies: React.FC = () => {
           </UnorderedList>
         </ListItem>
         <ListItem>
-          映画
+          <H3>映画</H3>
           <UnorderedList pl={4}>
             <ListItem>好きな映画は「イミテーション・ゲーム」です。</ListItem>
           </UnorderedList>
         </ListItem>
         <ListItem>
-          スニーカー収集
+          <H3>スニーカー収集</H3>
           <UnorderedList pl={4}>
             <ListItem>
               今となっては落ち着きましたが、高校の時にNIKEのスニーカーにドハマリし、大学の時は始発で渋谷に行って、スニーカーの抽選に並んでいました。
@@ -69,7 +70,7 @@ const Hobbies: React.FC = () => {
           </UnorderedList>
         </ListItem>
         <ListItem>
-          Podcast
+          <H3>Podcast</H3>
           <UnorderedList pl={4}>
             <ListItem>
               リスナーとしても好きですし、自分でも
@@ -84,7 +85,7 @@ const Hobbies: React.FC = () => {
           </UnorderedList>
         </ListItem>
       </UnorderedList>
-    </Box>
+    </Container>
   );
 };
 

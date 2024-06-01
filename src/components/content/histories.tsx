@@ -1,21 +1,11 @@
-import {
-  Box,
-  Heading,
-  Table,
-  Thead,
-  Tbody,
-  Tr,
-  Th,
-  Td,
-  Link,
-} from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th, Td, Link } from "@chakra-ui/react";
+import Container from "../container";
+import H2 from "../h2";
 
 const Histories = () => {
   return (
-    <Box my={5}>
-      <Heading as="h2" size="lg" mb={3}>
-        来歴
-      </Heading>
+    <Container>
+      <H2>来歴</H2>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>
@@ -113,7 +103,7 @@ const Histories = () => {
           </Tr>
         </Tbody>
       </Table>
-    </Box>
+    </Container>
   );
 };
 

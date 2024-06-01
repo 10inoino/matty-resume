@@ -1,21 +1,22 @@
 import React from "react";
-import { Box, Heading, Link, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Link, UnorderedList, ListItem } from "@chakra-ui/react";
+import Container from "../container";
+import H2 from "../h2";
+import H3 from "../h3";
 
 const Links = () => {
   return (
-    <Box my={5}>
-      <Heading as="h2" size="lg" mb={3}>
-        Links
-      </Heading>
+    <Container>
+      <H2>Links</H2>
       <UnorderedList>
         <ListItem>
           <Link href="https://www.facebook.com/10inoino" isExternal>
-            Facebook
+            <H3>Facebook</H3>
           </Link>
         </ListItem>
         <ListItem>
           <Link href="https://twitter.com/ino_aka_matty" isExternal>
-            Twitter
+            <H3>Twitter</H3>
           </Link>
         </ListItem>
         <ListItem>
@@ -23,12 +24,12 @@ const Links = () => {
             href="https://docs.google.com/presentation/d/1wPobujyRIkUf_ietB6iaEzpNTMRrlBWEvS_PRrxe_Iw/edit?usp=sharing"
             isExternal
           >
-            自己紹介資料
+            <H3>自己紹介資料</H3>
           </Link>
         </ListItem>
         <ListItem>
           <Link href="https://github.com/10inoino" isExternal>
-            Github
+            <H3>Github</H3>
           </Link>
         </ListItem>
         <ListItem>
@@ -36,16 +37,16 @@ const Links = () => {
             href="https://open.spotify.com/show/7gMXEfaXAaQjUbqRWy7UrL"
             isExternal
           >
-            個人でやってるPodcast
+            <H3>個人でやってるPodcast</H3>
           </Link>
         </ListItem>
         <ListItem>
           <Link href="https://zenn.dev/10inoino" isExternal>
-            Zenn
+            <H3>Zenn</H3>
           </Link>
         </ListItem>
       </UnorderedList>
-    </Box>
+    </Container>
   );
 };
 
