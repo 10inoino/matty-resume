@@ -1,5 +1,6 @@
-import React from "react";
 import { UnorderedList, ListItem, Link } from "@chakra-ui/react";
+import React from "react";
+
 import Container from "../container";
 import H2 from "../h2";
 import H3 from "../h3";

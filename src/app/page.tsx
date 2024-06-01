@@ -1,4 +1,6 @@
 "use client";
+import { Container, Heading } from "@chakra-ui/layout";
+
 import CarrierPlan from "@/components/content/carrier-plan";
 import Histories from "@/components/content/histories";
 import Hobbies from "@/components/content/hobbies";
@@ -8,7 +10,6 @@ import SelfIntroduce from "@/components/content/self-introduce";
 import SkillStacks from "@/components/content/skill-stacks";
 import SpeakingEngagement from "@/components/content/speaking-engagements";
 import Strength from "@/components/content/strength";
-import { Container, Heading } from "@chakra-ui/layout";
 
 export default function Home() {
   return (
