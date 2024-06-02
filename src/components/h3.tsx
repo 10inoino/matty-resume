@@ -1,5 +1,5 @@
-import React from "react";
 import { Heading } from "@chakra-ui/react";
+import React from "react";
 
 interface H3Props {
   children: React.ReactNode;
