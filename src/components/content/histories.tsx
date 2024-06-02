@@ -6,6 +6,7 @@ import H2 from "../h2";
 const Histories = () => {
   return (
     <Container>
+      test
       <H2>来歴</H2>
       <Table variant="simple" size="sm">
         <Thead>
