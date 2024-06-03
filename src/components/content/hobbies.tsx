@@ -11,19 +11,24 @@ const Hobbies: React.FC = () => {
       <H2>趣味</H2>
       <H3>プログラミング</H3>
       <UnorderedList pl={4}>
-        <ListItem>
-          技術系同人誌を買って、ちょっとしたWebアプリを作ったりしています。
-        </ListItem>
-        <ListItem>最近はC++で競技プログラミングも始めました。</ListItem>
+        <ListItem>ちょっとしたWebアプリを作ったりしています。</ListItem>
       </UnorderedList>
       <H3>バスケ</H3>
       <UnorderedList pl={4}>
-        <ListItem>コロナになってから、全然できていません…</ListItem>
+        <ListItem>
+          小学2年生の頃からやっています。今は定期的にやってるわけではありませんが、練習に呼ばれれば行きます。
+        </ListItem>
+      </UnorderedList>
+      <H3>ボルダリング</H3>
+      <UnorderedList pl={4}>
+        <ListItem>
+          家の近くにボルダリングジムがあるので、そこに1人で行って登ってます。
+        </ListItem>
       </UnorderedList>
       <H3>筋トレ</H3>
       <UnorderedList pl={4}>
         <ListItem>
-          家から徒歩2分のところにエニタイムフィットネスがあるので、ほぼ毎日ジムに行くようにしています。
+          家から徒歩2分のところにエニタイムフィットネスがあるので、2日に1回ジムに行くようにしています。
         </ListItem>
       </UnorderedList>
       <H3>ゲーム</H3>
@@ -34,12 +39,6 @@ const Hobbies: React.FC = () => {
       <UnorderedList pl={4}>
         <ListItem>
           最近は技術書とかビジネス書に寄りがちなので、もっといろんなジャンルに手を出したいです。
-        </ListItem>
-      </UnorderedList>
-      <H3>料理</H3>
-      <UnorderedList pl={4}>
-        <ListItem>
-          1ヶ月に1個は作れるレパートリーを増やそうと挑戦中です。
         </ListItem>
       </UnorderedList>
       <H3>映画</H3>
