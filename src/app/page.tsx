@@ -5,7 +5,7 @@ import CarrierPlan from "@/components/content/carrier-plan";
 import Histories from "@/components/content/histories";
 import Hobbies from "@/components/content/hobbies";
 import Links from "@/components/content/links";
-import Projects from "@/components/content/projects";
+import ProjectList from "@/components/content/projects/project-list";
 import SelfIntroduce from "@/components/content/self-introduce";
 import SkillStacks from "@/components/content/skill-stacks";
 import SpeakingEngagement from "@/components/content/speaking-engagements";
@@ -22,7 +22,7 @@ export default function Home() {
         <Links />
         <Histories />
         <SkillStacks />
-        <Projects />
+        <ProjectList />
         <SpeakingEngagement />
         <Strength />
         <CarrierPlan />

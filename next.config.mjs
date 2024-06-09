@@ -2,7 +2,7 @@
 const nextConfig = {
   webpack: (config) => {
     config.module.rules.push({
-      test: /\.md$/,
+      test: /src\/components\/content\/*\/*\.json$/,
       type: "asset/source",
     });
     return config;
