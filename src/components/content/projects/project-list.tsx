@@ -9,8 +9,6 @@ import { Project } from "./project";
 const json = require("./projects.json") as Array<Project>;
 
 const ProjectList = () => {
-  console.log(json);
-
   return (
     <Container>
       <H2>Projects</H2>
