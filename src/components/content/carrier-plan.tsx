@@ -1,14 +1,14 @@
 import { Text } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../container";
+import ContentsContainer from "../ContentsContainer";
 import H2 from "../h2";
 import H3 from "../h3";
 
 const CarrierPlan: React.FC = () => {
   return (
-    <Container>
-      <H2>キャリアプラン</H2>
+    <ContentsContainer>
+      <H2 id="carrier-plan">キャリアプラン</H2>
       <H3>PdM, エヴァンジェリスト</H3>
       <Text mt={2}>
         プロダクトが好きなので、将来的にはプロダクトに深く関わって意思決定をしていくPdMのようなポジションを目指しています。
@@ -24,7 +24,7 @@ const CarrierPlan: React.FC = () => {
       <Text mt={2}>
         そのためにはソフトウェアの知識のみならず、ユーザー側の深いドメイン知識も必要になるので、積極的に足で情報を取りに行くというスタイルを取っています。
       </Text>
-    </Container>
+    </ContentsContainer>
   );
 };
 

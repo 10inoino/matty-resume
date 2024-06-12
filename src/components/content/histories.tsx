@@ -1,12 +1,12 @@
 import { Table, Thead, Tbody, Tr, Th, Td, Link } from "@chakra-ui/react";
 
-import Container from "../container";
+import ContentsContainer from "../ContentsContainer";
 import H2 from "../h2";
 
 const Histories = () => {
   return (
-    <Container>
-      <H2>来歴</H2>
+    <ContentsContainer>
+      <H2 id="histories">来歴</H2>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>
@@ -104,7 +104,7 @@ const Histories = () => {
           </Tr>
         </Tbody>
       </Table>
-    </Container>
+    </ContentsContainer>
   );
 };
 

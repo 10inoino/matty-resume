@@ -1,13 +1,13 @@
 import { Link, UnorderedList, ListItem } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../container";
+import ContentsContainer from "../ContentsContainer";
 import H2 from "../h2";
 
 const Links = () => {
   return (
-    <Container>
-      <H2>Links</H2>
+    <ContentsContainer>
+      <H2 id="links">Links</H2>
       <UnorderedList>
         <ListItem>
           <Link
@@ -56,7 +56,7 @@ const Links = () => {
           </Link>
         </ListItem>
       </UnorderedList>
-    </Container>
+    </ContentsContainer>
   );
 };
 

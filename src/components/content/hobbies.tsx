@@ -1,14 +1,14 @@
 import { UnorderedList, ListItem, Link } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../container";
+import ContentsContainer from "../ContentsContainer";
 import H2 from "../h2";
 import H3 from "../h3";
 
 const Hobbies: React.FC = () => {
   return (
-    <Container>
-      <H2>趣味</H2>
+    <ContentsContainer>
+      <H2 id="hobbies">趣味</H2>
       <H3>プログラミング</H3>
       <UnorderedList pl={4}>
         <ListItem>
@@ -66,7 +66,7 @@ const Hobbies: React.FC = () => {
           というPodcastをやっています。
         </ListItem>
       </UnorderedList>
-    </Container>
+    </ContentsContainer>
   );
 };
 
