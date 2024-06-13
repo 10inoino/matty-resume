@@ -6,6 +6,7 @@ import {
   UnorderedList,
   Text,
   Link,
+  Spinner,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Markdown from "react-markdown";
@@ -29,7 +30,7 @@ export default function DetailPage({ params }: { params: { id: string } }) {
   if (!targetProject) {
     return (
       <Container maxW="7xl" p="12">
-        <p>Not found</p>
+        <Spinner size="xl" />
       </Container>
     );
   }
