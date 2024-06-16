@@ -1,4 +1,5 @@
-import { ListItem, UnorderedList } from "@chakra-ui/react";
+import { HStack, ListItem, UnorderedList } from "@chakra-ui/react";
+import Image from "next/image";
 import React from "react";
 
 import ContentsContainer from "../common/ContentsContainer";
@@ -13,6 +14,29 @@ const SelfIntroduce = () => {
         <ListItem>生年月日：1996/09/06</ListItem>
         <ListItem>ニックネーム：matty(マティと読みます)</ListItem>
       </UnorderedList>
+      <HStack spacing="24px" my={3}>
+        <Image
+          src={"/images/portrait1.jpeg"}
+          alt="Nigaoe"
+          width={300}
+          height={300}
+          objectFit="contain"
+        />
+        <Image
+          src={"/images/portrait2.jpeg"}
+          alt="Nigaoe"
+          width={300}
+          height={300}
+          objectFit="contain"
+        />
+        <Image
+          src={"/images/nigaoe.png"}
+          alt="Nigaoe"
+          width={300}
+          height={300}
+          objectFit="contain"
+        />
+      </HStack>
     </ContentsContainer>
   );
 };
