@@ -1,12 +1,12 @@
 import { Table, Thead, Tbody, Tr, Th, Td, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
-import ContentsContainer from "../../ContentsContainer";
-import H2 from "../../h2";
+import ContentsContainer from "../../common/ContentsContainer";
+import H2 from "../../common/h2";
 
 import { Project } from "./project";
 
-const json = require("./projects.json") as Array<Project>;
+const json = require("@/data/projects.json") as Array<Project>;
 
 const ProjectList = () => {
   return (

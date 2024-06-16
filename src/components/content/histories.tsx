@@ -1,7 +1,7 @@
 import { Table, Thead, Tbody, Tr, Th, Td, Link } from "@chakra-ui/react";
 
-import ContentsContainer from "../ContentsContainer";
-import H2 from "../h2";
+import ContentsContainer from "../common/ContentsContainer";
+import H2 from "../common/h2";
 
 const Histories = () => {
   return (

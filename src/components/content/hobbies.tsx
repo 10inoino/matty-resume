@@ -1,9 +1,9 @@
 import { UnorderedList, ListItem, Link } from "@chakra-ui/react";
 import React from "react";
 
-import ContentsContainer from "../ContentsContainer";
-import H2 from "../h2";
-import H3 from "../h3";
+import ContentsContainer from "../common/ContentsContainer";
+import H2 from "../common/h2";
+import H3 from "../common/h3";
 
 const Hobbies: React.FC = () => {
   return (

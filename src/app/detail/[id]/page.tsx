@@ -11,14 +11,13 @@ import {
 import { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 
+import ContentsContainer from "@/components/common/ContentsContainer";
+import H2 from "@/components/common/h2";
+import H3 from "@/components/common/h3";
 import { Project } from "@/components/content/projects/project";
-import ContentsContainer from "@/components/ContentsContainer";
-import H2 from "@/components/h2";
-import H3 from "@/components/h3";
 
 export default function DetailPage({ params }: { params: { id: string } }) {
-  const projects =
-    require("../../../components/content/projects/projects.json") as Array<Project>;
+  const projects = require("@/data/projects.json") as Array<Project>;
   const [targetProject, setTargetProject] = useState<Project | null>(null);
 
   useEffect(() => {
