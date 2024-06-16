@@ -1,19 +1,18 @@
-import { Table, Thead, Tbody, Tr, Th, Td } from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th, Td, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../../container";
-import H2 from "../../h2";
+import ContentsContainer from "../../common/ContentsContainer";
+import H2 from "../../common/h2";
 
 import { Project } from "./project";
 
-const json = require("./projects.json") as Array<Project>;
+const json = require("@/data/projects.json") as Array<Project>;
 
 const ProjectList = () => {
-  console.log(json);
-
   return (
-    <Container>
-      <H2>Projects</H2>
+    <ContentsContainer>
+      <H2 id="projects">Projects</H2>
+      <Text mb={4}>プロジェクト名をクリックすると、詳細が見れます。</Text>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>
@@ -26,7 +25,9 @@ const ProjectList = () => {
         <Tbody>
           {json.map((project) => (
             <Tr key={project.id}>
-              <Td>{project.name}</Td>
+              <Td>
+                <Link href={`/detail/${project.id}`}>{project.name}</Link>
+              </Td>
               <Td>{project.organization}</Td>
               <Td>{project.period}</Td>
               <Td>{project.role}</Td>
@@ -34,7 +35,7 @@ const ProjectList = () => {
           ))}
         </Tbody>
       </Table>
-    </Container>
+    </ContentsContainer>
   );
 };
 

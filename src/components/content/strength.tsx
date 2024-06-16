@@ -1,14 +1,14 @@
 import { Text, UnorderedList, ListItem } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../container";
-import H2 from "../h2";
-import H3 from "../h3";
+import ContentsContainer from "../common/ContentsContainer";
+import H2 from "../common/h2";
+import H3 from "../common/h3";
 
 const Strength: React.FC = () => {
   return (
-    <Container>
-      <H2>強み</H2>
+    <ContentsContainer>
+      <H2 id="strength">強み</H2>
       <H3>Webアプリケーション開発であれば、一通り触れます</H3>
       <UnorderedList spacing={3}>
         <ListItem>
@@ -84,7 +84,7 @@ const Strength: React.FC = () => {
           </Text>
         </ListItem>
       </UnorderedList>
-    </Container>
+    </ContentsContainer>
   );
 };
 

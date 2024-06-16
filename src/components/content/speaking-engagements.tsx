@@ -1,13 +1,13 @@
 import { Table, Thead, Tbody, Tr, Th, Td } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../container";
-import H2 from "../h2";
+import ContentsContainer from "../common/ContentsContainer";
+import H2 from "../common/h2";
 
 const SpeakingEngagement: React.FC = () => {
   return (
-    <Container>
-      <H2>登壇歴</H2>
+    <ContentsContainer>
+      <H2 id="speaking-engagement">登壇歴</H2>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>
@@ -43,7 +43,7 @@ const SpeakingEngagement: React.FC = () => {
           </Tr>
         </Tbody>
       </Table>
-    </Container>
+    </ContentsContainer>
   );
 };
 

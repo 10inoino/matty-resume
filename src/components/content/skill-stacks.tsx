@@ -1,13 +1,13 @@
 import { Table, Thead, Tbody, Tr, Th, Td } from "@chakra-ui/react";
 import React from "react";
 
-import Container from "../container";
-import H2 from "../h2";
+import ContentsContainer from "../common/ContentsContainer";
+import H2 from "../common/h2";
 
 const SkillStacks = () => {
   return (
-    <Container>
-      <H2>スキルスタック</H2>
+    <ContentsContainer>
+      <H2 id="skill-stack">スキルスタック</H2>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>
@@ -184,7 +184,7 @@ const SkillStacks = () => {
           </Tr>
         </Tbody>
       </Table>
-    </Container>
+    </ContentsContainer>
   );
 };
 

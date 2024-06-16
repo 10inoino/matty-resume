@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint --fix src --ext .js,jsx,.ts,.tsx",
-    "format": "prettier --write .",
+    "prettier": "prettier --write .",
+    "format": "npm run prettier && npm run lint:fix",
     "prepare": "husky"
   },
   "dependencies": {
@@ -19,7 +20,8 @@
     "next": "14.2.3",
     "prettier": "3.2.5",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "20",
@@ -37,8 +39,7 @@
   },
   "lint-staged": {
     "*": [
-      "npm run format",
-      "npm run lint:fix"
+      "npm run format"
     ]
   }
 }
