@@ -8,7 +8,7 @@ import Links from "@/components/content/links";
 import ProjectList from "@/components/content/projects/project-list";
 import SelfIntroduce from "@/components/content/self-introduce";
 import SkillStacks from "@/components/content/skill-stacks";
-import SpeakingEngagement from "@/components/content/speaking-engagements";
+import SpeakingEngagemenList from "@/components/content/speaking-engagement/speaking-engagement-list";
 import Strength from "@/components/content/strength";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
         <Histories />
         <SkillStacks />
         <ProjectList />
-        <SpeakingEngagement />
+        <SpeakingEngagemenList />
         <Strength />
         <CarrierPlan />
         <Hobbies />
