@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？会 ＆NPO井戸端会議！",
+    "date": "2020/07",
+    "content": "STO（Social Technology Officer）という非営利団体や地方自治体と並走して技術で社会解決をするという人物を創出すべく、STO創出のスタッフサイドの人間として登壇。若手エンジニアが技術で社会に貢献してきた経験から、社会貢献は意外と簡単にできるし、自分の成長にも繋がるという発表を行った。",
+    "reference": {
+      "イベントリンク": "https://sto-c4j-event.peatix.com/?lang=ja",
+      "登壇資料": "https://docs.google.com/presentation/d/1xwVaoA7FN3K20y4RPFsQjMtkJ8XZgBvAQuAQmDMlqhM/edit?usp=sharing"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Startup Lab Lagoon 文化祭",
+    "date": "2020/08",
+    "content": "STOとはなんぞや会を見てくれていた私の師匠に誘って頂き、沖縄のスタートアップ支援をしているStartup Lab Lagoonのトークセッションに登壇。本業と社会貢献を両立して行うエンジニアとして、自分のモチベーションや、学習意欲について話した。",
+    "reference": {
+      "イベントリンク": "https://lagoon-koza.org/archives/7061"
+    }
+  },
+  {
+    "id": 3,
+    "title": "【ITスキル×社会貢献】ソーシャル・テクノロジー・オフィサーとは何ぞや？オンライン座談会",
+    "date": "2020/10",
+    "content": "7月の発表から再度お声がけ頂き、10月にも登壇した。プロジェクトの説明と、今後CivicTechに関わろうとしている方の質疑応答に対応した。",
+    "reference": {
+      "イベントリンク": "https://sto-c4j-20201021.peatix.com/view"
+    }
+  },
+  {
+    "id": 4,
+    "title": "CivicTechForum2021",
+    "date": "2021/05",
+    "content": "「エンジニア2年目から始めるCivicTech」というタイトルで、若手でもビギナーでも社会貢献はできるし、思っていたより社会貢献は技術力が必要なものではないという発表を行った。その後、Code for Japan代表の関さんなどからも賞賛のコメントを頂いた。",
+    "reference": {
+      "イベントリンク": "https://2021.civictechforum.jp/speaker.html",
+      "発表当日の動画": "https://www.youtube.com/watch?v=3aB_ma6n2tI&t=4s"
+    }
+  },
+  {
+    "id": 5,
+    "title": "千葉大学 NPO/NGO論 ゲスト講義",
+    "date": "2021/12",
+    "content": "Code for Japanの活動で知り合った大学教授に招待して頂き、NPO/NGO論という授業で、９０分間の講義を行った。自分自身がCivicTechに興味を持った動機、若手のコミュニティ活動は組織・個人両者にメリットがあること、今後はストーリーテリングが重要になってくることなどを話した。",
+    "reference": {
+      "発表資料": "https://drive.google.com/file/d/1Vg6FK3yDtkKfRVzoebX3nY6br6wqRl9g/view?usp=sharing"
+    }
+  }
+]

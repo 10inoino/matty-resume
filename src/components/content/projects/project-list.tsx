@@ -6,9 +6,9 @@ import H2 from "../../common/h2";
 
 import { Project } from "./project";
 
-const json = require("@/data/projects.json") as Array<Project>;
+const ProjectsData = require("@/data/projects.json") as Array<Project>;
 
-const ProjectList = () => {
+const ProjectList: React.FC = () => {
   return (
     <ContentsContainer>
       <H2 id="projects">Projects</H2>
@@ -23,10 +23,10 @@ const ProjectList = () => {
           </Tr>
         </Thead>
         <Tbody>
-          {json.map((project) => (
+          {ProjectsData.map((project) => (
             <Tr key={project.id}>
               <Td>
-                <Link href={`/detail/${project.id}`}>{project.name}</Link>
+                <Link href={`/project/${project.id}`}>{project.name}</Link>
               </Td>
               <Td>{project.organization}</Td>
               <Td>{project.period}</Td>
