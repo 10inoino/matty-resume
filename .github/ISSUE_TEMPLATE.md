@@ -1,5 +1,6 @@
 ---
 title: Please update your resume【{{ date | date('YYYY/MM/DD') }}】
+assignees: 10inoino
 labels: enhancement
 ---
 
