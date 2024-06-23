@@ -11,7 +11,7 @@ const ProjectsData = require("@/data/projects.json") as Array<Project>;
 const ProjectList: React.FC = () => {
   return (
     <ContentsContainer>
-      <H2 id="projects">Projects</H2>
+      <H2 id="projects">職務経歴</H2>
       <Text mb={4}>プロジェクト名をクリックすると、詳細が見れます。</Text>
       <Table variant="simple" size="sm">
         <Thead>

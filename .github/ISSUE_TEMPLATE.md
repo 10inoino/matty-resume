@@ -1,8 +1,8 @@
 ---
-title: Please update your resume【{{ date | date('YYYY/MM/DD') }}】
+title: 履歴書を更新してください【{{ date | date('YYYY/MM/DD') }}】
 assignees: 10inoino
 labels: enhancement
 ---
 
-The quarter has passed.
-Please describe your accomplishments during this period in your resume.
+1ヶ月経過しました。
+今月の内容を履歴書に反映させましょう。

@@ -42,7 +42,7 @@ export default function DetailPage({ params }: { params: { id: string } }) {
   return (
     <Container maxW="7xl" p="12">
       <Heading as="h1" size="4xl">
-        Speaking Engagement Detail
+        登壇の詳細
       </Heading>
       <ContentsContainer>
         <H2>{targetEngagements.title}</H2>
