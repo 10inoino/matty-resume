@@ -37,7 +37,7 @@ export default function DetailPage({ params }: { params: { id: string } }) {
   return (
     <Container maxW="7xl" p="12">
       <Heading as="h1" size="4xl">
-        Project Detail
+        プロジェクト詳細
       </Heading>
       <ContentsContainer>
         <H2>{targetProject.name}</H2>
